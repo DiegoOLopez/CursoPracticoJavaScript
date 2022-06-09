@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #0CB7F2;
+}
+
+header .figurasTitle {
+    text-align: center;
+    color: #fff;
+    margin: 20px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    background-color: #bceeff;
+    height: auto;
+    padding: 20px;
+    margin: 0px 20px;
+    border-radius: 15px;
+}
+
+main section h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main section form{
+    display: flex;
+    flex-direction: column;
+}
+
+main section form label{
+    font-weight: 400;
+    margin: 5px 0px;
+}
+
+main section form input{
+    margin: 5px 0;
+    padding: 4px 0px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+main section form button{
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+}
+
+main section form button:hover{
+    background-color: #000;
+    color: white;
+}

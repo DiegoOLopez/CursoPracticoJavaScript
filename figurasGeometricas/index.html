@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./figura.css">
+    <title>Figuras geometricas</title>
+</head>
+<body>
+    <header>
+        <h1 class="figurasTitle">
+            Figuras geometricas
+        </h1>
+    </header>
+    <main>
+        <section class="Cuadrado">
+            <h2>Calcular area y perimetro de un cuadrado</h2>
+        <form action="">
+            <label for="ladoC">Escribe cuanto mide cada lado de tu cuadrado: </label>
+            <input id="ladoC" type="number" required/>
+            <button type="button" onclick="btnPerimetroCuadrado()">Calcular perimetro</button>
+            <button type="button" onclick="btnAreaCuadrado()">Calcular area</button>
+        </form>
+        </section>
+
+        <section class="Triangulo">
+            <h2>Calcular area y perimetro de un triangulo</h2>
+        <form action="">
+            <label for="baseT">Escribe cuanto mide la base del triangulo: </label>
+            <input id="baseT" type="number"/>
+            <label for="ladoT1">Escribe cuanto mide el primer lado del triangulo: </label>
+            <input id="ladoT1" type="number"/>
+            <label for="ladoT2">Escribe cuanto mide el segundo lado del triangulo: </label>
+            <input id="ladoT2" type="number"/>
+            <label for="alturaT">Escribe cuanto mide la altura del triangulo: </label>
+            <input id="alturaT" type="number"/>
+            <button type="button" onclick="btnPerimetroTriangulo()">Calcular perimetro</button>
+            <button type="button" onclick="btnAreaTriangulo()">Calcular area</button>
+        </form>
+        </section>
+
+        <section class="Circulo">
+            <h2>Calcular area y perimetro de un circulo</h2>
+        <form action="">
+            <label for="radioCi">Escribe cuanto mide el radio del circulo: </label>
+            <input id="radioCi" type="number"/>
+            <button type="button" onclick="btnPerimetroCirculo()">Calcular perimetro</button>
+            <button type="button" onclick="btnAreaCirculo()">Calcular area</button>
+        </form>
+        </section>
+    </main>
+    
+    <script src="./figuras.js"></script>
+</body>
+</html>
